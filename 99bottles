@@ -1,5 +1,5 @@
 //Javascript code to run a for loop that runs through the 99 bottles of beer on the wall song.
 
 for (bottlesOfBeer = 99; bottlesOfBeer > 0; bottlesOfBeer--) {
-    console.log(bottlesOfBeer + " bottles of beer on the wall! " + bottlesOfBeer + " bottles of beer! You take one down, pass it around, " + bottlesOfBeer + " bottles of beer on the wall!");
+    console.log(bottlesOfBeer + " bottles of beer on the wall! " + bottlesOfBeer + " bottles of beer! You take one down, pass it around, " + (bottlesOfBeer - 1) + " bottles of beer on the wall!");
 }
